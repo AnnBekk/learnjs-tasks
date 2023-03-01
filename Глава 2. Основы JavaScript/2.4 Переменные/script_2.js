@@ -1,0 +1,2 @@
+let OurPlanetName;
+let CurrentUserName;
