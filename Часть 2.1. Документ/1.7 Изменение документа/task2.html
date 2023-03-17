@@ -1,0 +1,21 @@
+<!DOCTYPE HTML>
+
+<!-- Задача "Создайте список" -->
+<html>
+<body>
+  <script type="text/javascript">
+    let list = document.createElement("ul");
+    document.body.append(list);
+
+    while (true) {
+      let elem = prompt("Введите элемент списка", "");
+
+      if (!elem) break;
+
+      let li = document.createElement("li");
+      li.textContent = elem;
+      list.append(li);
+    }
+  </script>
+</body>
+</html>
